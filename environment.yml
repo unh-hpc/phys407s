@@ -1,3 +1,12 @@
 name: phys407s
+channels:
+  - conda-forge
 dependencies:
+  - python
+  - numpy
   - ffmpeg
+  - pip:
+    - nbgitpuller
+    - sphinx-gallery
+    - pandas
+    - matplotlib
